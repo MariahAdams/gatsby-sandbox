@@ -2,7 +2,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: `Adorable Pandas Eating Lots`
+    title: `Adorable Pandas Eating Lots of Things`
   },
   plugins: [
     {

@@ -34,7 +34,11 @@ export default ({ children }) => (
         }
       `
       }
-      render={data => (
+      render={({ site: {
+        siteMetadata: {
+          title: pandas
+        }
+      } }) => (
           <div
           className={css`
             margin: 0 auto;
@@ -51,7 +55,7 @@ export default ({ children }) => (
                 font-style: normal;
               `}
             >
-              {data.site.siteMetadata.title}
+              {pandas}
             </h3>
           </Link>
           {children}

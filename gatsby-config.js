@@ -1,6 +1,9 @@
 
 
 module.exports = {
+  siteMetadata: {
+    title: `Adorable Pandas`
+  },
   plugins: [
     `gatsby-plugin-emotion`,
     {

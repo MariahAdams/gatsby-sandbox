@@ -61,7 +61,7 @@ export default ({ children }) => (
     </main>
 
     <footer>
-      <span>&copy; <date dateTime="2018">2018</date></span>
+      <span>&copy; <time dateTime="2018">2018</time></span>
     </footer>
   </div>
 )

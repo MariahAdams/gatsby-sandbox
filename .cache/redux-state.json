@@ -1,0 +1,2026 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/mariahadams/alchemy/401/gatsby-sandbox/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "316e4bc228bfbc0b2e85d400d3e906b3",
+        "description": "Plugin dev-404-page",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/Users/mariahadams/alchemy/401/gatsby-sandbox/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "96dbe190be688498c98b9c1d913ac9a0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin load-babel-config": {
+      "resolve": "/Users/mariahadams/alchemy/401/gatsby-sandbox/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "Plugin load-babel-config",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "9b605fcfa95a672866cc9d376bc0cbfb",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/mariahadams/alchemy/401/gatsby-sandbox/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8eb42068f4b97050a6eb24c8859f09a0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/Users/mariahadams/alchemy/401/gatsby-sandbox/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "41c12605da899ff08670af5468f1339c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/mariahadams/alchemy/401/gatsby-sandbox/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "cb749452cc658945666d5024f77f839f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/Users/mariahadams/alchemy/401/gatsby-sandbox/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "1.5.39",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "src",
+        "path": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "1.5.39",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^1.3.6"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.250"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4ff64c06ba1c7f7672efeb22171f7e65",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/Users/mariahadams/alchemy/401/gatsby-sandbox/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.7.44",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.7.44",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "graphql-type-json",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1333ad4c169271386bb9ae5003cc3448",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-emotion": {
+      "resolve": "/Users/mariahadams/alchemy/401/gatsby-sandbox/node_modules/gatsby-plugin-emotion",
+      "id": "Plugin gatsby-plugin-emotion",
+      "name": "gatsby-plugin-emotion",
+      "version": "2.0.0-rc.5",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateBabelConfig"
+      ],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [
+        "replaceRenderer"
+      ],
+      "pluginFilepath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/node_modules/gatsby-plugin-emotion",
+      "packageJson": {
+        "name": "gatsby-plugin-emotion",
+        "description": "Gatsby plugin to add support for Emotion",
+        "version": "2.0.0-rc.5",
+        "main": "index.js",
+        "keywords": [
+          "emotion",
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Tegan Churchill",
+          "email": "churchill.tegan@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "emotion",
+            "version": "7 || 8 || 9"
+          },
+          {
+            "name": "emotion-server",
+            "version": "7 || 8 || 9"
+          },
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4558cf601354710d8cf636e0086e5513",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-typography": {
+      "resolve": "/Users/mariahadams/alchemy/401/gatsby-sandbox/node_modules/gatsby-plugin-typography",
+      "id": "Plugin gatsby-plugin-typography",
+      "name": "gatsby-plugin-typography",
+      "version": "1.7.19",
+      "pluginOptions": {
+        "plugins": [],
+        "pathToConfigModule": "src/utils/typography"
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/node_modules/gatsby-plugin-typography",
+      "packageJson": {
+        "name": "gatsby-plugin-typography",
+        "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
+        "version": "1.7.19",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "typography",
+          "typography.js"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.1"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "2325fa8737532d475f77fe3c2c088e9c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/mariahadams/alchemy/401/gatsby-sandbox",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "f48fdc14a53e7a774dffe8edd84499ec",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "createPages"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/mariahadams/alchemy/401/gatsby-sandbox",
+      "packageJson": {
+        "name": "gatsby-starter-hello-world",
+        "description": "Gatsby hello world starter",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "emotion",
+            "version": "^9.2.8"
+          },
+          {
+            "name": "emotion-server",
+            "version": "^9.2.8"
+          },
+          {
+            "name": "gatsby",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-plugin-emotion",
+            "version": "^2.0.0-rc.5"
+          },
+          {
+            "name": "gatsby-plugin-typography",
+            "version": "^1.7.19"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^1.5.39"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^1.7.44"
+          },
+          {
+            "name": "react",
+            "version": "^16.4.2"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.4.2"
+          },
+          {
+            "name": "react-emotion",
+            "version": "^9.2.8"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.13"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.17"
+          },
+          {
+            "name": "typography-theme-bootstrap",
+            "version": "^0.16.7"
+          },
+          {
+            "name": "typography-theme-fairy-gates",
+            "version": "^0.15.11"
+          },
+          {
+            "name": "typography-theme-kirkham",
+            "version": "^0.16.3"
+          },
+          {
+            "name": "typography-theme-lawton",
+            "version": "^0.15.10"
+          }
+        ],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a7c5d878809cc5f8313ded37fba65657",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-page-creator": {
+      "resolve": "/Users/mariahadams/alchemy/401/gatsby-sandbox/node_modules/gatsby-plugin-page-creator",
+      "id": "Plugin gatsby-plugin-page-creator",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.0-rc.5",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.0-rc.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "182f4c92be04e8825636a763ef70e12f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Adorable Pandas Eating Lots of Things"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "buildTime": "2018-09-15T21:52:43.897Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "37da59d9aa67b94a64f432502f29b04f",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/ absPath of file": {
+      "id": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/ absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "22dbf9e939cced671420881198c0748b",
+        "type": "Directory",
+        "description": "Directory \"src\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/",
+      "relativePath": "",
+      "extension": "",
+      "size": 204,
+      "prettySize": "204 B",
+      "modifiedTime": "2018-09-15T21:50:54.000Z",
+      "accessTime": "2018-09-15T21:53:10.000Z",
+      "changeTime": "2018-09-15T21:50:54.000Z",
+      "birthTime": "2018-09-15T17:58:26.000Z",
+      "root": "/",
+      "dir": "/Users/mariahadams/alchemy/401/gatsby-sandbox",
+      "base": "src",
+      "ext": "",
+      "name": "src",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 6,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 20649789,
+      "blocks": 0,
+      "atimeMs": 1537048390000,
+      "mtimeMs": 1537048254000,
+      "ctimeMs": 1537048254000,
+      "birthtimeMs": 1537034306000,
+      "atime": "2018-09-15T21:53:10.000Z",
+      "mtime": "2018-09-15T21:50:54.000Z",
+      "ctime": "2018-09-15T21:50:54.000Z",
+      "birthtime": "2018-09-15T17:58:26.000Z"
+    },
+    "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/components absPath of file": {
+      "id": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/components absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "0b9d4cbe9c020c79ab6bd65ef10062d2",
+        "type": "Directory",
+        "description": "Directory \"src/components\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/components",
+      "relativePath": "components",
+      "extension": "",
+      "size": 204,
+      "prettySize": "204 B",
+      "modifiedTime": "2018-09-15T18:55:32.000Z",
+      "accessTime": "2018-09-15T21:53:10.000Z",
+      "changeTime": "2018-09-15T18:55:32.000Z",
+      "birthTime": "2018-09-15T18:10:32.000Z",
+      "root": "/",
+      "dir": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src",
+      "base": "components",
+      "ext": "",
+      "name": "components",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 6,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 20682316,
+      "blocks": 0,
+      "atimeMs": 1537048390000,
+      "mtimeMs": 1537037732000,
+      "ctimeMs": 1537037732000,
+      "birthtimeMs": 1537035032000,
+      "atime": "2018-09-15T21:53:10.000Z",
+      "mtime": "2018-09-15T18:55:32.000Z",
+      "ctime": "2018-09-15T18:55:32.000Z",
+      "birthtime": "2018-09-15T18:10:32.000Z"
+    },
+    "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages absPath of file": {
+      "id": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9e694e27c6c2020e9d5d8118f713d87f",
+        "type": "Directory",
+        "description": "Directory \"src/pages\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages",
+      "relativePath": "pages",
+      "extension": "",
+      "size": 374,
+      "prettySize": "374 B",
+      "modifiedTime": "2018-09-15T21:30:16.000Z",
+      "accessTime": "2018-09-15T21:53:10.000Z",
+      "changeTime": "2018-09-15T21:30:16.000Z",
+      "birthTime": "2018-09-15T17:58:26.000Z",
+      "root": "/",
+      "dir": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src",
+      "base": "pages",
+      "ext": "",
+      "name": "pages",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 11,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 20649790,
+      "blocks": 0,
+      "atimeMs": 1537048390000,
+      "mtimeMs": 1537047016000,
+      "ctimeMs": 1537047016000,
+      "birthtimeMs": 1537034306000,
+      "atime": "2018-09-15T21:53:10.000Z",
+      "mtime": "2018-09-15T21:30:16.000Z",
+      "ctime": "2018-09-15T21:30:16.000Z",
+      "birthtime": "2018-09-15T17:58:26.000Z"
+    },
+    "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/templates absPath of file": {
+      "id": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/templates absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ae5c395b0c21297ceb78ca9332a74558",
+        "type": "Directory",
+        "description": "Directory \"src/templates\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/templates",
+      "relativePath": "templates",
+      "extension": "",
+      "size": 102,
+      "prettySize": "102 B",
+      "modifiedTime": "2018-09-15T21:51:02.000Z",
+      "accessTime": "2018-09-15T21:53:10.000Z",
+      "changeTime": "2018-09-15T21:51:02.000Z",
+      "birthTime": "2018-09-15T21:50:47.000Z",
+      "root": "/",
+      "dir": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src",
+      "base": "templates",
+      "ext": "",
+      "name": "templates",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 20692408,
+      "blocks": 0,
+      "atimeMs": 1537048390000,
+      "mtimeMs": 1537048262000,
+      "ctimeMs": 1537048262000,
+      "birthtimeMs": 1537048247000,
+      "atime": "2018-09-15T21:53:10.000Z",
+      "mtime": "2018-09-15T21:51:02.000Z",
+      "ctime": "2018-09-15T21:51:02.000Z",
+      "birthtime": "2018-09-15T21:50:47.000Z"
+    },
+    "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/utils absPath of file": {
+      "id": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/utils absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ac2c1ef691920af310401e09afb102bf",
+        "type": "Directory",
+        "description": "Directory \"src/utils\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/utils",
+      "relativePath": "utils",
+      "extension": "",
+      "size": 102,
+      "prettySize": "102 B",
+      "modifiedTime": "2018-09-15T18:25:56.000Z",
+      "accessTime": "2018-09-15T21:53:10.000Z",
+      "changeTime": "2018-09-15T18:25:56.000Z",
+      "birthTime": "2018-09-15T18:25:50.000Z",
+      "root": "/",
+      "dir": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src",
+      "base": "utils",
+      "ext": "",
+      "name": "utils",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 20683176,
+      "blocks": 0,
+      "atimeMs": 1537048390000,
+      "mtimeMs": 1537035956000,
+      "ctimeMs": 1537035956000,
+      "birthtimeMs": 1537035950000,
+      "atime": "2018-09-15T21:53:10.000Z",
+      "mtime": "2018-09-15T18:25:56.000Z",
+      "ctime": "2018-09-15T18:25:56.000Z",
+      "birthtime": "2018-09-15T18:25:50.000Z"
+    },
+    "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/about-css-modules.js absPath of file": {
+      "id": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/about-css-modules.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "98e979e756585e88d97d643b8fca3ad2",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/pages/about-css-modules.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/about-css-modules.js",
+      "relativePath": "pages/about-css-modules.js",
+      "extension": "js",
+      "size": 1087,
+      "prettySize": "1.09 kB",
+      "modifiedTime": "2018-09-15T18:51:38.000Z",
+      "accessTime": "2018-09-15T21:51:38.000Z",
+      "changeTime": "2018-09-15T18:51:38.000Z",
+      "birthTime": "2018-09-15T18:45:12.000Z",
+      "root": "/",
+      "dir": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages",
+      "base": "about-css-modules.js",
+      "ext": ".js",
+      "name": "about-css-modules",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 20683676,
+      "blocks": 8,
+      "atimeMs": 1537048298000,
+      "mtimeMs": 1537037498000,
+      "ctimeMs": 1537037498000,
+      "birthtimeMs": 1537037112000,
+      "atime": "2018-09-15T21:51:38.000Z",
+      "mtime": "2018-09-15T18:51:38.000Z",
+      "ctime": "2018-09-15T18:51:38.000Z",
+      "birthtime": "2018-09-15T18:45:12.000Z"
+    },
+    "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/about-css-modules.module.css absPath of file": {
+      "id": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/about-css-modules.module.css absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c1c5893a084e25336c5744ea4e3f47af",
+        "mediaType": "text/css",
+        "type": "File",
+        "description": "File \"src/pages/about-css-modules.module.css\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/about-css-modules.module.css",
+      "relativePath": "pages/about-css-modules.module.css",
+      "extension": "css",
+      "size": 340,
+      "prettySize": "340 B",
+      "modifiedTime": "2018-09-15T18:48:54.000Z",
+      "accessTime": "2018-09-15T21:49:47.000Z",
+      "changeTime": "2018-09-15T18:48:54.000Z",
+      "birthTime": "2018-09-15T18:48:52.000Z",
+      "root": "/",
+      "dir": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages",
+      "base": "about-css-modules.module.css",
+      "ext": ".css",
+      "name": "about-css-modules.module",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 20683814,
+      "blocks": 8,
+      "atimeMs": 1537048187000,
+      "mtimeMs": 1537037334000,
+      "ctimeMs": 1537037334000,
+      "birthtimeMs": 1537037332000,
+      "atime": "2018-09-15T21:49:47.000Z",
+      "mtime": "2018-09-15T18:48:54.000Z",
+      "ctime": "2018-09-15T18:48:54.000Z",
+      "birthtime": "2018-09-15T18:48:52.000Z"
+    },
+    "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/about.js absPath of file": {
+      "id": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/about.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9f7964f88e995fd73349a7a211e4a540",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/pages/about.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/about.js",
+      "relativePath": "pages/about.js",
+      "extension": "js",
+      "size": 470,
+      "prettySize": "470 B",
+      "modifiedTime": "2018-09-15T20:16:51.000Z",
+      "accessTime": "2018-09-15T21:51:38.000Z",
+      "changeTime": "2018-09-15T20:16:51.000Z",
+      "birthTime": "2018-09-15T18:08:39.000Z",
+      "root": "/",
+      "dir": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages",
+      "base": "about.js",
+      "ext": ".js",
+      "name": "about",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 20682245,
+      "blocks": 8,
+      "atimeMs": 1537048298000,
+      "mtimeMs": 1537042611000,
+      "ctimeMs": 1537042611000,
+      "birthtimeMs": 1537034919000,
+      "atime": "2018-09-15T21:51:38.000Z",
+      "mtime": "2018-09-15T20:16:51.000Z",
+      "ctime": "2018-09-15T20:16:51.000Z",
+      "birthtime": "2018-09-15T18:08:39.000Z"
+    },
+    "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/contact.js absPath of file": {
+      "id": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/contact.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6041487fad26238ab092553dfefad7e6",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/pages/contact.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/contact.js",
+      "relativePath": "pages/contact.js",
+      "extension": "js",
+      "size": 227,
+      "prettySize": "227 B",
+      "modifiedTime": "2018-09-15T19:08:11.000Z",
+      "accessTime": "2018-09-15T21:51:38.000Z",
+      "changeTime": "2018-09-15T19:08:11.000Z",
+      "birthTime": "2018-09-15T18:15:00.000Z",
+      "root": "/",
+      "dir": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages",
+      "base": "contact.js",
+      "ext": ".js",
+      "name": "contact",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 20682478,
+      "blocks": 8,
+      "atimeMs": 1537048298000,
+      "mtimeMs": 1537038491000,
+      "ctimeMs": 1537038491000,
+      "birthtimeMs": 1537035300000,
+      "atime": "2018-09-15T21:51:38.000Z",
+      "mtime": "2018-09-15T19:08:11.000Z",
+      "ctime": "2018-09-15T19:08:11.000Z",
+      "birthtime": "2018-09-15T18:15:00.000Z"
+    },
+    "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/cute-red-pandas.md absPath of file": {
+      "id": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/cute-red-pandas.md absPath of file",
+      "children": [
+        "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/cute-red-pandas.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "5a48a5286eaa6713de19e548ad017198",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/pages/cute-red-pandas.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/cute-red-pandas.md",
+      "relativePath": "pages/cute-red-pandas.md",
+      "extension": "md",
+      "size": 200,
+      "prettySize": "200 B",
+      "modifiedTime": "2018-09-15T21:31:53.000Z",
+      "accessTime": "2018-09-15T21:49:33.000Z",
+      "changeTime": "2018-09-15T21:31:53.000Z",
+      "birthTime": "2018-09-15T21:30:16.000Z",
+      "root": "/",
+      "dir": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages",
+      "base": "cute-red-pandas.md",
+      "ext": ".md",
+      "name": "cute-red-pandas",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 20691680,
+      "blocks": 8,
+      "atimeMs": 1537048173000,
+      "mtimeMs": 1537047113000,
+      "ctimeMs": 1537047113000,
+      "birthtimeMs": 1537047016000,
+      "atime": "2018-09-15T21:49:33.000Z",
+      "mtime": "2018-09-15T21:31:53.000Z",
+      "ctime": "2018-09-15T21:31:53.000Z",
+      "birthtime": "2018-09-15T21:30:16.000Z"
+    },
+    "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/index.js absPath of file": {
+      "id": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/index.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "fdfce612bff15142642cb0b86eebfbce",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/pages/index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/index.js",
+      "relativePath": "pages/index.js",
+      "extension": "js",
+      "size": 1676,
+      "prettySize": "1.68 kB",
+      "modifiedTime": "2018-09-15T21:56:44.000Z",
+      "accessTime": "2018-09-15T21:56:44.000Z",
+      "changeTime": "2018-09-15T21:56:44.000Z",
+      "birthTime": "2018-09-15T17:58:26.000Z",
+      "root": "/",
+      "dir": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 20649791,
+      "blocks": 8,
+      "atimeMs": 1537048604000,
+      "mtimeMs": 1537048604000,
+      "ctimeMs": 1537048604000,
+      "birthtimeMs": 1537034306000,
+      "atime": "2018-09-15T21:56:44.000Z",
+      "mtime": "2018-09-15T21:56:44.000Z",
+      "ctime": "2018-09-15T21:56:44.000Z",
+      "birthtime": "2018-09-15T17:58:26.000Z"
+    },
+    "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/my-files.js absPath of file": {
+      "id": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/my-files.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "46d3a631b22685a9d4912a49c2c1e42a",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/pages/my-files.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/my-files.js",
+      "relativePath": "pages/my-files.js",
+      "extension": "js",
+      "size": 1046,
+      "prettySize": "1.05 kB",
+      "modifiedTime": "2018-09-15T20:56:13.000Z",
+      "accessTime": "2018-09-15T21:51:38.000Z",
+      "changeTime": "2018-09-15T20:56:13.000Z",
+      "birthTime": "2018-09-15T20:35:02.000Z",
+      "root": "/",
+      "dir": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages",
+      "base": "my-files.js",
+      "ext": ".js",
+      "name": "my-files",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 20687843,
+      "blocks": 8,
+      "atimeMs": 1537048298000,
+      "mtimeMs": 1537044973000,
+      "ctimeMs": 1537044973000,
+      "birthtimeMs": 1537043702000,
+      "atime": "2018-09-15T21:51:38.000Z",
+      "mtime": "2018-09-15T20:56:13.000Z",
+      "ctime": "2018-09-15T20:56:13.000Z",
+      "birthtime": "2018-09-15T20:35:02.000Z"
+    },
+    "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/pandas-and-bananas.md absPath of file": {
+      "id": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/pandas-and-bananas.md absPath of file",
+      "children": [
+        "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/pandas-and-bananas.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d40d36fd6c6d770882ef84f9fd1b6e4a",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/pages/pandas-and-bananas.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/pandas-and-bananas.md",
+      "relativePath": "pages/pandas-and-bananas.md",
+      "extension": "md",
+      "size": 290,
+      "prettySize": "290 B",
+      "modifiedTime": "2018-09-15T21:27:31.000Z",
+      "accessTime": "2018-09-15T21:49:33.000Z",
+      "changeTime": "2018-09-15T21:27:31.000Z",
+      "birthTime": "2018-09-15T21:26:58.000Z",
+      "root": "/",
+      "dir": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages",
+      "base": "pandas-and-bananas.md",
+      "ext": ".md",
+      "name": "pandas-and-bananas",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 20691578,
+      "blocks": 8,
+      "atimeMs": 1537048173000,
+      "mtimeMs": 1537046851000,
+      "ctimeMs": 1537046851000,
+      "birthtimeMs": 1537046818000,
+      "atime": "2018-09-15T21:49:33.000Z",
+      "mtime": "2018-09-15T21:27:31.000Z",
+      "ctime": "2018-09-15T21:27:31.000Z",
+      "birthtime": "2018-09-15T21:26:58.000Z"
+    },
+    "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/sweet-pandas-eating-sweets.md absPath of file": {
+      "id": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/sweet-pandas-eating-sweets.md absPath of file",
+      "children": [
+        "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/sweet-pandas-eating-sweets.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "26c3704c847c7cf8477fb0af73374917",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/pages/sweet-pandas-eating-sweets.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/sweet-pandas-eating-sweets.md",
+      "relativePath": "pages/sweet-pandas-eating-sweets.md",
+      "extension": "md",
+      "size": 254,
+      "prettySize": "254 B",
+      "modifiedTime": "2018-09-15T20:41:22.000Z",
+      "accessTime": "2018-09-15T21:49:33.000Z",
+      "changeTime": "2018-09-15T20:41:22.000Z",
+      "birthTime": "2018-09-15T20:40:45.000Z",
+      "root": "/",
+      "dir": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages",
+      "base": "sweet-pandas-eating-sweets.md",
+      "ext": ".md",
+      "name": "sweet-pandas-eating-sweets",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 20688053,
+      "blocks": 8,
+      "atimeMs": 1537048173000,
+      "mtimeMs": 1537044082000,
+      "ctimeMs": 1537044082000,
+      "birthtimeMs": 1537044045000,
+      "atime": "2018-09-15T21:49:33.000Z",
+      "mtime": "2018-09-15T20:41:22.000Z",
+      "ctime": "2018-09-15T20:41:22.000Z",
+      "birthtime": "2018-09-15T20:40:45.000Z"
+    },
+    "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/components/container.js absPath of file": {
+      "id": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/components/container.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "1581aca765a3352b7da2a0f6c9649bf2",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/components/container.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/components/container.js",
+      "relativePath": "components/container.js",
+      "extension": "js",
+      "size": 190,
+      "prettySize": "190 B",
+      "modifiedTime": "2018-09-15T18:44:22.000Z",
+      "accessTime": "2018-09-15T21:51:38.000Z",
+      "changeTime": "2018-09-15T18:44:22.000Z",
+      "birthTime": "2018-09-15T18:43:34.000Z",
+      "root": "/",
+      "dir": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/components",
+      "base": "container.js",
+      "ext": ".js",
+      "name": "container",
+      "relativeDirectory": "components",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 20683658,
+      "blocks": 8,
+      "atimeMs": 1537048298000,
+      "mtimeMs": 1537037062000,
+      "ctimeMs": 1537037062000,
+      "birthtimeMs": 1537037014000,
+      "atime": "2018-09-15T21:51:38.000Z",
+      "mtime": "2018-09-15T18:44:22.000Z",
+      "ctime": "2018-09-15T18:44:22.000Z",
+      "birthtime": "2018-09-15T18:43:34.000Z"
+    },
+    "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/components/container.module.css absPath of file": {
+      "id": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/components/container.module.css absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ccc3d064a8aadf69a91d0ba7bdef552b",
+        "mediaType": "text/css",
+        "type": "File",
+        "description": "File \"src/components/container.module.css\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/components/container.module.css",
+      "relativePath": "components/container.module.css",
+      "extension": "css",
+      "size": 56,
+      "prettySize": "56 B",
+      "modifiedTime": "2018-09-15T18:48:32.000Z",
+      "accessTime": "2018-09-15T21:49:47.000Z",
+      "changeTime": "2018-09-15T18:48:32.000Z",
+      "birthTime": "2018-09-15T18:44:33.000Z",
+      "root": "/",
+      "dir": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/components",
+      "base": "container.module.css",
+      "ext": ".css",
+      "name": "container.module",
+      "relativeDirectory": "components",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 20683670,
+      "blocks": 8,
+      "atimeMs": 1537048187000,
+      "mtimeMs": 1537037312000,
+      "ctimeMs": 1537037312000,
+      "birthtimeMs": 1537037073000,
+      "atime": "2018-09-15T21:49:47.000Z",
+      "mtime": "2018-09-15T18:48:32.000Z",
+      "ctime": "2018-09-15T18:48:32.000Z",
+      "birthtime": "2018-09-15T18:44:33.000Z"
+    },
+    "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/components/header.js absPath of file": {
+      "id": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/components/header.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3b907cb45a852ac134c6835bba94f137",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/components/header.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/components/header.js",
+      "relativePath": "components/header.js",
+      "extension": "js",
+      "size": 78,
+      "prettySize": "78 B",
+      "modifiedTime": "2018-09-15T18:11:26.000Z",
+      "accessTime": "2018-09-15T21:51:38.000Z",
+      "changeTime": "2018-09-15T18:11:26.000Z",
+      "birthTime": "2018-09-15T18:10:38.000Z",
+      "root": "/",
+      "dir": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/components",
+      "base": "header.js",
+      "ext": ".js",
+      "name": "header",
+      "relativeDirectory": "components",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 20682318,
+      "blocks": 8,
+      "atimeMs": 1537048298000,
+      "mtimeMs": 1537035086000,
+      "ctimeMs": 1537035086000,
+      "birthtimeMs": 1537035038000,
+      "atime": "2018-09-15T21:51:38.000Z",
+      "mtime": "2018-09-15T18:11:26.000Z",
+      "ctime": "2018-09-15T18:11:26.000Z",
+      "birthtime": "2018-09-15T18:10:38.000Z"
+    },
+    "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/components/layout.js absPath of file": {
+      "id": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/components/layout.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "57d78fd41344a48fe87185ee1d56e66c",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/components/layout.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/components/layout.js",
+      "relativePath": "components/layout.js",
+      "extension": "js",
+      "size": 1777,
+      "prettySize": "1.78 kB",
+      "modifiedTime": "2018-09-15T22:14:44.000Z",
+      "accessTime": "2018-09-15T22:14:44.000Z",
+      "changeTime": "2018-09-15T22:14:44.000Z",
+      "birthTime": "2018-09-15T18:55:32.000Z",
+      "root": "/",
+      "dir": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/components",
+      "base": "layout.js",
+      "ext": ".js",
+      "name": "layout",
+      "relativeDirectory": "components",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 20684016,
+      "blocks": 8,
+      "atimeMs": 1537049684000,
+      "mtimeMs": 1537049684000,
+      "ctimeMs": 1537049684000,
+      "birthtimeMs": 1537037732000,
+      "atime": "2018-09-15T22:14:44.000Z",
+      "mtime": "2018-09-15T22:14:44.000Z",
+      "ctime": "2018-09-15T22:14:44.000Z",
+      "birthtime": "2018-09-15T18:55:32.000Z"
+    },
+    "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/utils/typography.js absPath of file": {
+      "id": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/utils/typography.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a7a792ee7268977550e929779b0c37da",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/utils/typography.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/utils/typography.js",
+      "relativePath": "utils/typography.js",
+      "extension": "js",
+      "size": 203,
+      "prettySize": "203 B",
+      "modifiedTime": "2018-09-15T20:10:38.000Z",
+      "accessTime": "2018-09-15T21:51:38.000Z",
+      "changeTime": "2018-09-15T20:10:38.000Z",
+      "birthTime": "2018-09-15T18:25:56.000Z",
+      "root": "/",
+      "dir": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/utils",
+      "base": "typography.js",
+      "ext": ".js",
+      "name": "typography",
+      "relativeDirectory": "utils",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 20683177,
+      "blocks": 8,
+      "atimeMs": 1537048298000,
+      "mtimeMs": 1537042238000,
+      "ctimeMs": 1537042238000,
+      "birthtimeMs": 1537035956000,
+      "atime": "2018-09-15T21:51:38.000Z",
+      "mtime": "2018-09-15T20:10:38.000Z",
+      "ctime": "2018-09-15T20:10:38.000Z",
+      "birthtime": "2018-09-15T18:25:56.000Z"
+    },
+    "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/templates/blog-post.js absPath of file": {
+      "id": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/templates/blog-post.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "69d3db9358793871acf762e6bd3c4105",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/templates/blog-post.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/templates/blog-post.js",
+      "relativePath": "templates/blog-post.js",
+      "extension": "js",
+      "size": 521,
+      "prettySize": "521 B",
+      "modifiedTime": "2018-09-15T21:55:08.000Z",
+      "accessTime": "2018-09-15T21:55:08.000Z",
+      "changeTime": "2018-09-15T21:55:08.000Z",
+      "birthTime": "2018-09-15T21:51:02.000Z",
+      "root": "/",
+      "dir": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/templates",
+      "base": "blog-post.js",
+      "ext": ".js",
+      "name": "blog-post",
+      "relativeDirectory": "templates",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 20692410,
+      "blocks": 8,
+      "atimeMs": 1537048508000,
+      "mtimeMs": 1537048508000,
+      "ctimeMs": 1537048508000,
+      "birthtimeMs": 1537048262000,
+      "atime": "2018-09-15T21:55:08.000Z",
+      "mtime": "2018-09-15T21:55:08.000Z",
+      "ctime": "2018-09-15T21:55:08.000Z",
+      "birthtime": "2018-09-15T21:51:02.000Z"
+    },
+    "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/cute-red-pandas.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/cute-red-pandas.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/cute-red-pandas.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: \"Red Pandas\"\ndate: \"2017-08-11\"\n---\n\nCheck out this cute video!\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/watch?v=hPKab2d4_Xw\" frameborder=\"0\" allowfullscreen></iframe>",
+        "type": "MarkdownRemark",
+        "contentDigest": "e5aa39046c23b9eae8990cd684a34e6f",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Red Pandas",
+        "date": "2017-08-11",
+        "_PARENT": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/cute-red-pandas.md absPath of file",
+        "parent": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/cute-red-pandas.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nCheck out this cute video!\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/watch?v=hPKab2d4_Xw\" frameborder=\"0\" allowfullscreen></iframe>",
+      "fileAbsolutePath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/cute-red-pandas.md",
+      "fields": {
+        "slug": "/cute-red-pandas/"
+      }
+    },
+    "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/pandas-and-bananas.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/pandas-and-bananas.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/pandas-and-bananas.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: \"Pandas and Bananas\"\ndate: \"2017-08-21\"\n---\n\nDo Pandas eat bananas? Check out this short video that shows that yes! pandas do\nseem to really enjoy bananas!\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/4SZl1r2O_bY\" frameborder=\"0\" allowfullscreen></iframe>",
+        "type": "MarkdownRemark",
+        "contentDigest": "e8ad3c35a53c4ded2c9269bb7ae5697c",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Pandas and Bananas",
+        "date": "2017-08-21",
+        "_PARENT": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/pandas-and-bananas.md absPath of file",
+        "parent": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/pandas-and-bananas.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nDo Pandas eat bananas? Check out this short video that shows that yes! pandas do\nseem to really enjoy bananas!\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/4SZl1r2O_bY\" frameborder=\"0\" allowfullscreen></iframe>",
+      "fileAbsolutePath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/pandas-and-bananas.md",
+      "fields": {
+        "slug": "/pandas-and-bananas/"
+      }
+    },
+    "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/sweet-pandas-eating-sweets.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/sweet-pandas-eating-sweets.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/sweet-pandas-eating-sweets.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: \"Sweet Pandas Eating Sweets\"\ndate: \"2017-08-10\"\n---\n\nPandas are really sweet.\n\nHere's a video of a panda eating sweets.\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/4n0xNbfJLR8\" frameborder=\"0\" allowfullscreen></iframe>",
+        "type": "MarkdownRemark",
+        "contentDigest": "84d73ef031fb08b27cd167834f6fa54b",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Sweet Pandas Eating Sweets",
+        "date": "2017-08-10",
+        "_PARENT": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/sweet-pandas-eating-sweets.md absPath of file",
+        "parent": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/sweet-pandas-eating-sweets.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nPandas are really sweet.\n\nHere's a video of a panda eating sweets.\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/4n0xNbfJLR8\" frameborder=\"0\" allowfullscreen></iframe>",
+      "fileAbsolutePath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/sweet-pandas-eating-sweets.md",
+      "fields": {
+        "slug": "/sweet-pandas-eating-sweets/"
+      }
+    },
+    "SitePage /cute-red-pandas/": {
+      "jsonName": "cute-red-pandas-c91",
+      "internalComponentName": "ComponentCuteRedPandas",
+      "path": "/cute-red-pandas/",
+      "component": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/cute-red-pandas/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/templates/blog-post.js",
+      "id": "SitePage /cute-red-pandas/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "af2e3b7a4e93a8bc571875678d819bd2",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /pandas-and-bananas/": {
+      "jsonName": "pandas-and-bananas-c27",
+      "internalComponentName": "ComponentPandasAndBananas",
+      "path": "/pandas-and-bananas/",
+      "component": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/pandas-and-bananas/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/templates/blog-post.js",
+      "id": "SitePage /pandas-and-bananas/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "70cb312f46279f048208b00e425a3ca9",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /sweet-pandas-eating-sweets/": {
+      "jsonName": "sweet-pandas-eating-sweets-34f",
+      "internalComponentName": "ComponentSweetPandasEatingSweets",
+      "path": "/sweet-pandas-eating-sweets/",
+      "component": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/sweet-pandas-eating-sweets/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/templates/blog-post.js",
+      "id": "SitePage /sweet-pandas-eating-sweets/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "bddc5d875bdc270549bc50bbeb7cc03c",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about-css-modules/": {
+      "jsonName": "about-css-modules-c4c",
+      "internalComponentName": "ComponentAboutCssModules",
+      "path": "/about-css-modules/",
+      "component": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/about-css-modules.js",
+      "componentChunkName": "component---src-pages-about-css-modules-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/about-css-modules.js",
+      "id": "SitePage /about-css-modules/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "2353d6d145fab7b0fb3d72298af12bbb",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "jsonName": "about-f34",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "902b4b299db98b6fd43f8ca62567b089",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /contact/": {
+      "jsonName": "contact-26a",
+      "internalComponentName": "ComponentContact",
+      "path": "/contact/",
+      "component": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/contact.js",
+      "componentChunkName": "component---src-pages-contact-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/contact.js",
+      "id": "SitePage /contact/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "7a95d8d9658254cbdcf21fd6a88c787a",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "3ced4261200935bb49d8cdb16c2259ea",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /my-files/": {
+      "jsonName": "my-files-317",
+      "internalComponentName": "ComponentMyFiles",
+      "path": "/my-files/",
+      "component": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/my-files.js",
+      "componentChunkName": "component---src-pages-my-files-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/my-files.js",
+      "id": "SitePage /my-files/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ab388556c842a9e0ddd9e7e5a85c4920",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "90d52084a078c47ce4440a6924349069"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "/about/",
+        "sq--src-components-layout-js"
+      ],
+      "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/pandas-and-bananas.md absPath of file >>> MarkdownRemark": [
+        "/pandas-and-bananas/"
+      ],
+      "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/cute-red-pandas.md absPath of file >>> MarkdownRemark": [
+        "/cute-red-pandas/"
+      ],
+      "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/sweet-pandas-eating-sweets.md absPath of file >>> MarkdownRemark": [
+        "/sweet-pandas-eating-sweets/"
+      ]
+    },
+    "connections": {
+      "MarkdownRemark": [
+        "/"
+      ],
+      "File": [
+        "/my-files/"
+      ]
+    }
+  },
+  "jsonDataPaths": {
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index": "728/path---index-6a9-EcHRNbNKvDLDCyUUBibDFVe0J8",
+    "about-f34": "748/path---about-f-34-4c2-zzCiMgOBo1xkYIT1GzvZy7LcAc",
+    "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "about-css-modules-c4c": "924/path---about-css-modules-c-4-c-850-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sq--src-components-layout-js": 3427377306,
+    "my-files-317": "566/path---my-files-317-4c7-VLZwtamTByvloP7WuZRbdJcHs1o",
+    "sweet-pandas-eating-sweets-34f": "158/path---sweet-pandas-eating-sweets-34-f-7c4-lqavJYMa6rMabIGKUfDmeA9DNc8",
+    "cute-red-pandas-c91": "624/path---cute-red-pandas-c-91-fe9-VtPa0AlmZdauhvaqpefoQOeKOMQ",
+    "pandas-and-bananas-c27": "74/path---pandas-and-bananas-c-27-086-6z2Obr7WeHZs1zz24wrYOTNgc"
+  },
+  "components": {
+    "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/templates/blog-post.js": {
+      "query": "query usersMariahadamsAlchemy401GatsbySandboxSrcTemplatesBlogPostJs861893041(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    html\n    frontmatter {\n      title\n    }\n  }\n}\n",
+      "componentPath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/templates/blog-post.js"
+    },
+    "/Users/mariahadams/alchemy/401/gatsby-sandbox/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/.cache/dev-404-page.js"
+    },
+    "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/about-css-modules.js": {
+      "query": "",
+      "componentPath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/about-css-modules.js"
+    },
+    "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/about.js": {
+      "query": "query usersMariahadamsAlchemy401GatsbySandboxSrcPagesAboutJs1097489062 {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "componentPath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/about.js"
+    },
+    "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/contact.js": {
+      "query": "",
+      "componentPath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/contact.js"
+    },
+    "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/index.js": {
+      "query": "query usersMariahadamsAlchemy401GatsbySandboxSrcPagesIndexJs2068765159 {\n  allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}) {\n    totalCount\n    edges {\n      node {\n        id\n        frontmatter {\n          title\n          date(formatString: \"DD MMMM, YYYY\")\n        }\n        fields {\n          slug\n        }\n        excerpt\n      }\n    }\n  }\n}\n",
+      "componentPath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/index.js"
+    },
+    "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/my-files.js": {
+      "query": "query usersMariahadamsAlchemy401GatsbySandboxSrcPagesMyFilesJs3953592347 {\n  allFile {\n    edges {\n      node {\n        relativePath\n        prettySize\n        extension\n        birthTime(fromNow: true)\n      }\n    }\n  }\n}\n",
+      "componentPath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/pages/my-files.js"
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-components-layout-js": {
+      "name": "usersMariahadamsAlchemy401GatsbySandboxSrcComponentsLayoutJs3427377306",
+      "componentPath": "/Users/mariahadams/alchemy/401/gatsby-sandbox/src/components/layout.js",
+      "id": "sq--src-components-layout-js",
+      "jsonName": "sq--src-components-layout-js",
+      "query": "query usersMariahadamsAlchemy401GatsbySandboxSrcComponentsLayoutJs3427377306 {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "hash": 3427377306
+    }
+  }
+}
